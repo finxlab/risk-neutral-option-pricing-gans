@@ -36,7 +36,7 @@ This is a critical step for implementing the quarterly retraining methodology. T
 ## 4. GAN Retraining Loop (Implementation Omitted)
 
 This section demonstrates the core methodology: sequentially retraining TimeGAN, QuantGAN, and SigCWGAN on the 39 quarterly datasets.
-**Key Functionality:**
+* **Key Functionality:**
     * **Required for Reproduction:** The 39 pkl files for 10000 paths of 91 step noises that genereated by each GAN models must be saved.
     * **Required for Reproduction:** This repository do not include real generated noises.
 
