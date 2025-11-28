@@ -63,7 +63,7 @@ All estimated prices and deltas from the 39 quarters and multiple models are col
     * Aggregate all models' results
     * The HESTON model code and results are currently being organized and will be updated soon.
 
-## 7. Performance Evaluation (Multiple Comparison with the Best - MCS)
+## 7. Performance Evaluation
 
 This is the final step where the statistical superiority of the proposed models against the benchmarks is rigorously verified, aligning with the empirical claims of the paper.
 
