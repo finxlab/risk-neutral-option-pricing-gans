@@ -104,7 +104,7 @@ num_simulations = 10000
 # sb_data = opdat[opdat['symbol'].isin(call_list)].groupby('symbol')
 sb_data = opdat[opdat['symbol'].isin(put_list)].groupby('symbol')
 del opdat
-#43500 까지 500
+
 all_price = []
 all_delta = []
 i=0
@@ -165,3 +165,4 @@ if len(all_price)>0:
     joblib.dump(all_price, ('results/pricing_results/Price/MC/PUT/res' + str(1 + i // 100) + '.pkl'))
     joblib.dump(all_delta, (
             'results/pricing_results/Delta/MC/PUT/res' + str(i // 100) + '.pkl'))
+
