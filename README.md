@@ -37,8 +37,10 @@ This is a critical step for implementing the quarterly retraining methodology. T
 
 This section demonstrates the core methodology: sequentially retraining TimeGAN, QuantGAN, and SigCWGAN on the 39 quarterly datasets.
 * **Key Functionality:**
+    * A rough training template is provided in GIT_TRAIN_TEMPLATE_EXAMPLE.py 
     * **Required for Reproduction:** The 39 pkl files for 10000 paths of 91 step noises that genereated by each GAN models must be saved.
     * **Required for Reproduction:** This repository do not include real generated noises.
+      
 
 **NOTE ON IMPLEMENTATION:** The complex, hundreds-of-lines implementation code for the TimeGAN, QuantGAN, and SigCWGAN models themselves is **omitted** from this repository. These models are based on established, externally available research libraries cited in the paper.
 
